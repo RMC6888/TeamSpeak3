@@ -28,20 +28,20 @@ touch /home/teamspeak/.ts3server_license_accepted
 nano /lib/systemd/system/teamspeak.service
 
 [Unit]
-Description=TeamSpeak 3 Server
-After=network.target
-[Service]
-WorkingDirectory=/home/teamspeak/
-User=teamspeak
-Group=teamspeak
-Type=forking
-ExecStart=/home/teamspeak/ts3server_startscript.sh start inifile=ts3server.ini
-ExecStop=/home/teamspeak/ts3server_startscript.sh stop
-PIDFile=/home/teamspeak/ts3server.pid
-RestartSec=15
-Restart=always
-[Install]
-WantedBy=multi-user.target
+Description=TeamSpeak 3 Server<br>
+After=network.target<br>
+[Service]<br>
+WorkingDirectory=/home/teamspeak/<br>
+User=teamspeak<br>
+Group=teamspeak<br>
+Type=forking<br>
+ExecStart=/home/teamspeak/ts3server_startscript.sh start inifile=ts3server.ini<br>
+ExecStop=/home/teamspeak/ts3server_startscript.sh stop<br>
+PIDFile=/home/teamspeak/ts3server.pid<br>
+RestartSec=15<br>
+Restart=always<br>
+[Install]<br>
+WantedBy=multi-user.target<br>
 
 systemctl enable teamspeak.service
 
