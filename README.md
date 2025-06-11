@@ -23,7 +23,7 @@ cd /home/teamspeak
 
 wget https://github.com/RMC6888/TeamSpeak3-Linux-server/releases/download/TS3-JZ02BNK/teamspeak-3.0.13.6.tar
 
-tar xvf teamspeak-3.0.13.8.tar
+tar xvf teamspeak-3.0.13.6.tar
 
 touch /home/teamspeak/.ts3server_license_accepted
 
