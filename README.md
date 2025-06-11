@@ -51,11 +51,11 @@ systemctl | grep teamspeak.service
 
 service teamspeak status
 
-ufw allow 9987/udp
-ufw allow 30033/tcp
-ufw allow 10011/tcp
-ufw allow 10022/tcp
-ufw allow 10080/tcp
+ufw allow 9987/udp<br>
+ufw allow 30033/tcp<br>
+ufw allow 10011/tcp<br>
+ufw allow 10022/tcp<br>
+ufw allow 10080/tcp<br>
 
 cat /home/teamspeak/logs/ts3server_*
 
