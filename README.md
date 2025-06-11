@@ -21,7 +21,7 @@ adduser --disabled-login teamspeak
 
 cd /home/teamspeak
 
-wget https://github.com/RMC6888/TeamSpeak3/releases/download/TS3-JZ02BNK/teamspeak-3.0.13.8.tar
+wget https://github.com/RMC6888/TeamSpeak3-Linux-server/releases/download/TS3-JZ02BNK/teamspeak-3.0.13.6.tar
 
 tar xvf teamspeak-3.0.13.8.tar
 
