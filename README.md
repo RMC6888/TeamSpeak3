@@ -61,4 +61,4 @@ cat /home/teamspeak/logs/ts3server_*
 
 ====================================
 
-[![Tonton Video](https://youtu.be/bMgNPVSAphk?si=vMPbVUPKzec31ocm/hqdefault.jpg)](https://youtu.be/bMgNPVSAphk?si=vMPbVUPKzec31ocm)
+[![Tonton Video](https://img.youtube.com/vi/bMgNPVSAphk/maxresdefault.jpg)](https://youtu.be/bMgNPVSAphk)
