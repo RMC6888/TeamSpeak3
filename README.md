@@ -13,6 +13,8 @@ Running on Debian server 11 Bullseye
 
 [teamspeak-3.0.13.8.tar](https://github.com/RMC6888/TeamSpeak3-Linux-server/releases/download/TS3-JZ02BNK/teamspeak-3.0.13.8.tar)
 
+[teamspeak-3.0.13.8-Crack.tar](https://github.com/RMC6888/TeamSpeak3-Linux-server/releases/download/TS3-JZ02BNK/teamspeak-3.0.13.8-Crack.tar)
+
 ====================================
 
 apt-get update && apt-get upgrade
