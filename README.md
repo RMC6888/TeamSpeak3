@@ -21,29 +21,33 @@ apt-get update && apt-get upgrade
 
 adduser --disabled-login teamspeak
 
-cd /home/teamspeak
+cd /opt
 
-wget https://github.com/RMC6888/TeamSpeak3-Linux-server/releases/download/TS3-JZ02BNK/teamspeak-3.0.13.6.tar
+mkdir teamspeak && cd teamspeak
 
-tar xvf teamspeak-3.0.13.6.tar
+wget wget https://github.com/RMC6888/TeamSpeak3-Linux-server/releases/download/TS3-JZ02BNK/teamspeak-3.0.13.8-Crack.tar
 
-touch /home/teamspeak/.ts3server_license_accepted
+tar xvf teamspeak-3.0.13.8-Crack.tar
+
+touch /opt/teamspeak/.ts3server_license_accepted
 
 nano /lib/systemd/system/teamspeak.service
 
 [Unit]
 Description=TeamSpeak 3 Server<br>
 After=network.target<br>
+
 [Service]<br>
-WorkingDirectory=/home/teamspeak/<br>
+WorkingDirectory=/opt/teamspeak/<br>
 User=teamspeak<br>
 Group=teamspeak<br>
 Type=forking<br>
-ExecStart=/home/teamspeak/ts3server_startscript.sh start inifile=ts3server.ini<br>
-ExecStop=/home/teamspeak/ts3server_startscript.sh stop<br>
-PIDFile=/home/teamspeak/ts3server.pid<br>
+ExecStart=/opt/teamspeak/ts3server_startscript.sh start inifile=ts3server.ini<br>
+ExecStop=/opt/teamspeak/ts3server_startscript.sh stop<br>
+PIDFile=/opt/teamspeak/ts3server.pid<br>
 RestartSec=15<br>
 Restart=always<br>
+
 [Install]<br>
 WantedBy=multi-user.target<br>
 
